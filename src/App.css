@@ -1,0 +1,16 @@
+.appheading {
+  background-color: black;
+  height: 40vh;
+}
+
+.white-text {
+  color: white;
+}
+
+.large-text {
+  font-size: 2em;
+}
+
+ul {
+  margin-top: 1em;
+}
