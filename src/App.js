@@ -54,7 +54,7 @@ class App extends Component {
   }
 
   _fetchZipCode () {
-    let urlString = `http://api.zippopotam.us/us/${this.zipCode.value}`;
+    let urlString = `https://api.zippopotam.us/us/${this.zipCode.value}`;
     fetch(urlString).then((responce) => {
                       if (responce.ok) {
                         return responce.json();
